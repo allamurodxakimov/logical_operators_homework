@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x = a//100
+    y = a%10//10
+    z = a%10
+    return (x+y+z)%2!=0
+print(main(346))
