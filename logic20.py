@@ -9,4 +9,4 @@ def main(n):
         bool: answer
     """
 
-    return
+    return 
